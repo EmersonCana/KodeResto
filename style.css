@@ -27,9 +27,12 @@ body {
 .custom-bg-dark {
   background-color: #382d45;
 }
+.custom-text-dark {
+  color: #382d45;
+}
 
 #navbarNav ul li .nav-link {
-  color: black;
+  color: white;
 }
 
 .card {
@@ -40,6 +43,10 @@ body {
 
 #filter ul {
   padding-left: 0px;
+}
+
+ol li {
+  list-style-type: none;
 }
 
 .about-image {
@@ -69,6 +76,19 @@ body {
 #chefs img {
   width: 20vw;
   height: auto;
+}
+
+#linkIcons a:link {
+  color: #382d45;
+}
+
+/* custom list group item */
+#footerList {
+  text-align: left;
+}
+#footerList .list-group-item {
+  background-color: #63954b;
+  border: 0px;
 }
 
 /* .contact-us {
