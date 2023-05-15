@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Abel&display=swap");
+
+body {
+  font-family: Abel;
+}
+
+.custom-bg-primary {
+  background-color: #a5bf36;
+}
+
+.custom-bg-secondary {
+  background-color: #04646c;
+}
+
+.custom-bg-success {
+  background-color: #63954b;
+}
+
+.custom-bg-warning {
+  background-color: #f57e80;
+}
+
+.custom-bg-danger {
+  background-color: #d3cca8;
+}
+
+.custom-bg-dark {
+  background-color: #382d45;
+}
+
+#navbarNav ul li .nav-link {
+  color: black;
+}
+
+.card {
+  border: 0px;
+  border-radius: 0px;
+  color: white;
+}
+
+#filter ul {
+  padding-left: 0px;
+}
+
+.about-image {
+  position: relative;
+  background-image: url("./assets/images/salad.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+}
+
+#filter ul li {
+  display: inline-block;
+  list-style-type: none;
+  padding: 10px 30px 10px 30px;
+}
+
+#filter ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.text-content-indent p {
+  text-indent: 10%;
+  text-align: justify;
+}
+
+#chefs img {
+  width: 20vw;
+  height: auto;
+}
+
+/* .contact-us {
+  background-image: url("./assets/images/contact.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+.contact-form label {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+#contact-us-details ul {
+  text-align: left;
+}
+#contact-us-details ul li {
+  list-style-type: none;
+}
+
+/* Custom generated ribbon */
+.ribbon {
+  position: absolute;
+  right: -5px;
+  top: -5px;
+  z-index: 1;
+  overflow: hidden;
+  width: 75px;
+  height: 75px;
+  text-align: right;
+}
+.ribbon span {
+  font-size: 10px;
+  font-weight: bold;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 20px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  width: 100px;
+  display: block;
+  background: #79a70a;
+  background: linear-gradient(#a5bf36 0%, #63954b 100%);
+  box-shadow: 0 3px 10px -5px rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 19px;
+  right: -21px;
+}
+.ribbon span::before {
+  content: "";
+  position: absolute;
+  left: 0px;
+  top: 100%;
+  z-index: -1;
+  border-left: 3px solid #63954b;
+  border-right: 3px solid transparent;
+  border-bottom: 3px solid transparent;
+  border-top: 3px solid #63954b;
+}
+.ribbon span::after {
+  content: "";
+  position: absolute;
+  right: 0px;
+  top: 100%;
+  z-index: -1;
+  border-left: 3px solid transparent;
+  border-right: 3px solid #63954b;
+  border-bottom: 3px solid transparent;
+  border-top: 3px solid #63954b;
+}
